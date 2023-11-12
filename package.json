@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "cakenback",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,23 +9,26 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.11.4",
-    "@strapi/plugin-users-permissions": "4.11.4",
-    "@strapi/provider-upload-cloudinary": "^4.15.0",
-    "@strapi/strapi": "4.11.4",
-    "better-sqlite3": "8.0.1",
-    "pg": "^8.11.3",
-    "pg-connection-string": "^2.6.2"
+    "@strapi/strapi": "4.15.4",
+    "@strapi/plugin-users-permissions": "4.15.4",
+    "@strapi/plugin-i18n": "4.15.4",
+    "@strapi/plugin-cloud": "4.15.4",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "bc22ce8a-cd3a-41fa-9f12-7a097d54023b"
+    "uuid": "921a65b3-a944-490b-8748-af25f17eff1d"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
