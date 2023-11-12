@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "link_photos",
+  "info": {
+    "singularName": "link-photo",
+    "pluralName": "link-photos",
+    "displayName": "LinkPhoto"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
