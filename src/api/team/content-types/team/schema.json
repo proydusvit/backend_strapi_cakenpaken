@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "link_photos",
+  "collectionName": "teams",
   "info": {
-    "singularName": "link-photo",
-    "pluralName": "link-photos",
-    "displayName": "LinkPhoto",
+    "singularName": "team",
+    "pluralName": "teams",
+    "displayName": "team",
     "description": ""
   },
   "options": {
@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "category": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
     "name": {
       "type": "string",
       "pluginOptions": {
@@ -40,12 +32,20 @@
         "audios"
       ],
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
+    },
+    "social": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
