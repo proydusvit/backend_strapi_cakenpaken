@@ -804,6 +804,12 @@ export interface ApiTeamTeam extends Schema.CollectionType {
           localized: true;
         };
       }>;
+    category: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
